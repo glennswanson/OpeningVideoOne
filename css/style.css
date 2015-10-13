@@ -19,8 +19,8 @@
 body {
 	font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #333 url(../media/woods.jpg) no-repeat center center;
-	background-size: cover;
+
+
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -37,10 +37,10 @@ a:focus {
 }
 
 /* Container */
-.container {
+.container-video {
 	width: 100vw;
-	height: 100vh;
-	border: 20px solid #fff;
+	height: 80vh;
+	border: none;
 	position: relative;
 	display: -webkit-flex;
 	display: flex;
@@ -51,6 +51,8 @@ a:focus {
 	justify-content: space-around;
 	-webkit-align-items: center;
 	align-items: center;
+		background: #333 url(../media/woods.jpg) no-repeat center center;
+			background-size: cover;
 }
 
 /* Top Navigation Style */
@@ -142,8 +144,8 @@ a:focus {
 }
 
 #opening {
-  -webkit-animation-duration: 3s;
-   animation-duration: 3s;
+  -webkit-animation-duration: 1.5s;
+   animation-duration: 1.5s;
   -webkit-animation-delay: .5s;
    animation-delay: .5s;
 
